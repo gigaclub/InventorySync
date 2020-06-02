@@ -41,6 +41,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
+                            <outputDirectory>C:\Users\nethe\IdeaProjects\InventorySync\testserver\plugins</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>

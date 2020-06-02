@@ -1,0 +1,7 @@
+InventorySync:
+  MySQL:
+    Host: localhost
+    Port: '3306'
+    User: root
+    Datenbank: inv
+    Passwort: root
