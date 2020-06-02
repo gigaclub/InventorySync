@@ -1,0 +1,7 @@
+name: InventorySync
+version: ${project.version}
+main: net.gigaclub.inventorysync.Main
+api-version: 1.15.2
+authors: [KevTVKevin]
+description: Plugin, welches das Inventar mehrerer Server synchronisieren kann.
+website: https://GigaClub.net
