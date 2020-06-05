@@ -20,7 +20,7 @@ import java.sql.SQLException;
 public class InventoryData {
 
     public static void setUpTables() {
-        MySQLHelper.update("CREATE TABLE IF NOT EXISTS PlayerInventory(UUID varchar(64), Inventory varchar(16383), Experience BIGINT)");
+        MySQLHelper.update("CREATE TABLE IF NOT EXISTS PlayerInventory(UUID varchar(64), Inventory blob(16383), Experience BIGINT)");
     }
 
     public static void saveAll5Minutes() {
